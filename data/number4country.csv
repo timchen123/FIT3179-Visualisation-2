@@ -1,0 +1,449 @@
+﻿Country,Year,Number
+China,1909,0
+China,1910,0
+China,1911,0
+China,1912,0
+China,1913,0
+China,1914,0
+China,1915,0
+China,1916,0
+China,1917,0
+China,1918,0
+China,1919,0
+China,1920,0
+China,1921,0
+China,1922,0
+China,1923,0
+China,1924,0
+China,1925,0
+China,1926,0
+China,1927,0
+China,1928,0
+China,1929,0
+China,1930,0
+China,1931,0
+China,1932,0
+China,1933,0
+China,1934,0
+China,1935,0
+China,1936,0
+China,1937,0
+China,1938,0
+China,1939,0
+China,1940,0
+China,1941,0
+China,1942,0
+China,1943,0
+China,1944,0
+China,1945,0
+China,1946,0
+China,1947,0
+China,1948,0
+China,1949,0
+China,1950,0
+China,1951,0
+China,1952,0
+China,1953,0
+China,1954,0
+China,1955,0
+China,1956,0
+China,1957,0
+China,1958,0
+China,1959,0
+China,1960,0
+China,1961,0
+China,1962,0
+China,1963,0
+China,1964,0
+China,1965,0
+China,1966,0
+China,1967,0
+China,1968,0
+China,1969,0
+China,1970,0
+China,1971,0
+China,1972,0
+China,1973,1
+China,1974,1
+China,1975,2
+China,1976,2
+China,1977,2
+China,1978,2
+China,1979,2
+China,1980,4
+China,1981,5
+China,1982,7
+China,1983,9
+China,1984,11
+China,1985,18
+China,1986,19
+China,1987,20
+China,1988,25
+China,1989,28
+China,1990,39
+China,1991,54
+China,1992,65
+China,1993,75
+China,1994,84
+China,1995,93
+China,1996,117
+China,1997,149
+China,1998,187
+China,1999,232
+China,2000,279
+China,2001,312
+China,2002,364
+China,2003,466
+China,2004,515
+China,2005,595
+China,2006,653
+China,2007,719
+China,2008,806
+China,2009,872
+China,2010,965
+China,2011,1041
+China,2012,1103
+China,2013,1207
+China,2014,1395
+China,2015,1575
+China,2016,1772
+China,2017,1955
+China,2018,2133
+China,2019,2245
+China,2020,2288
+United States of America,1909,1
+United States of America,1910,1
+United States of America,1911,1
+United States of America,1912,2
+United States of America,1913,4
+United States of America,1914,5
+United States of America,1915,7
+United States of America,1916,7
+United States of America,1917,7
+United States of America,1918,7
+United States of America,1919,8
+United States of America,1920,8
+United States of America,1921,8
+United States of America,1922,8
+United States of America,1923,8
+United States of America,1924,10
+United States of America,1925,10
+United States of America,1926,12
+United States of America,1927,18
+United States of America,1928,26
+United States of America,1929,36
+United States of America,1930,45
+United States of America,1931,57
+United States of America,1932,61
+United States of America,1933,62
+United States of America,1934,63
+United States of America,1935,64
+United States of America,1936,66
+United States of America,1937,66
+United States of America,1938,66
+United States of America,1939,66
+United States of America,1940,66
+United States of America,1941,66
+United States of America,1942,66
+United States of America,1943,67
+United States of America,1944,67
+United States of America,1945,67
+United States of America,1946,67
+United States of America,1947,67
+United States of America,1948,67
+United States of America,1949,68
+United States of America,1950,69
+United States of America,1951,70
+United States of America,1952,70
+United States of America,1953,71
+United States of America,1954,72
+United States of America,1955,73
+United States of America,1956,74
+United States of America,1957,74
+United States of America,1958,75
+United States of America,1959,77
+United States of America,1960,79
+United States of America,1961,81
+United States of America,1962,86
+United States of America,1963,91
+United States of America,1964,100
+United States of America,1965,104
+United States of America,1966,105
+United States of America,1967,113
+United States of America,1968,118
+United States of America,1969,131
+United States of America,1970,142
+United States of America,1971,154
+United States of America,1972,170
+United States of America,1973,186
+United States of America,1974,198
+United States of America,1975,210
+United States of America,1976,223
+United States of America,1977,228
+United States of America,1978,234
+United States of America,1979,235
+United States of America,1980,241
+United States of America,1981,252
+United States of America,1982,272
+United States of America,1983,299
+United States of America,1984,319
+United States of America,1985,336
+United States of America,1986,357
+United States of America,1987,375
+United States of America,1988,390
+United States of America,1989,409
+United States of America,1990,434
+United States of America,1991,447
+United States of America,1992,470
+United States of America,1993,473
+United States of America,1994,476
+United States of America,1995,476
+United States of America,1996,477
+United States of America,1997,479
+United States of America,1998,481
+United States of America,1999,487
+United States of America,2000,492
+United States of America,2001,499
+United States of America,2002,508
+United States of America,2003,521
+United States of America,2004,533
+United States of America,2005,540
+United States of America,2006,546
+United States of America,2007,564
+United States of America,2008,595
+United States of America,2009,625
+United States of America,2010,650
+United States of America,2011,656
+United States of America,2012,660
+United States of America,2013,668
+United States of America,2014,677
+United States of America,2015,688
+United States of America,2016,709
+United States of America,2017,735
+United States of America,2018,774
+United States of America,2019,802
+United States of America,2020,814
+United Arab Emirates,1909,0
+United Arab Emirates,1910,0
+United Arab Emirates,1911,0
+United Arab Emirates,1912,0
+United Arab Emirates,1913,0
+United Arab Emirates,1914,0
+United Arab Emirates,1915,0
+United Arab Emirates,1916,0
+United Arab Emirates,1917,0
+United Arab Emirates,1918,0
+United Arab Emirates,1919,0
+United Arab Emirates,1920,0
+United Arab Emirates,1921,0
+United Arab Emirates,1922,0
+United Arab Emirates,1923,0
+United Arab Emirates,1924,0
+United Arab Emirates,1925,0
+United Arab Emirates,1926,0
+United Arab Emirates,1927,0
+United Arab Emirates,1928,0
+United Arab Emirates,1929,0
+United Arab Emirates,1930,0
+United Arab Emirates,1931,0
+United Arab Emirates,1932,0
+United Arab Emirates,1933,0
+United Arab Emirates,1934,0
+United Arab Emirates,1935,0
+United Arab Emirates,1936,0
+United Arab Emirates,1937,0
+United Arab Emirates,1938,0
+United Arab Emirates,1939,0
+United Arab Emirates,1940,0
+United Arab Emirates,1941,0
+United Arab Emirates,1942,0
+United Arab Emirates,1943,0
+United Arab Emirates,1944,0
+United Arab Emirates,1945,0
+United Arab Emirates,1946,0
+United Arab Emirates,1947,0
+United Arab Emirates,1948,0
+United Arab Emirates,1949,0
+United Arab Emirates,1950,0
+United Arab Emirates,1951,0
+United Arab Emirates,1952,0
+United Arab Emirates,1953,0
+United Arab Emirates,1954,0
+United Arab Emirates,1955,0
+United Arab Emirates,1956,0
+United Arab Emirates,1957,0
+United Arab Emirates,1958,0
+United Arab Emirates,1959,0
+United Arab Emirates,1960,0
+United Arab Emirates,1961,0
+United Arab Emirates,1962,0
+United Arab Emirates,1963,0
+United Arab Emirates,1964,0
+United Arab Emirates,1965,0
+United Arab Emirates,1966,0
+United Arab Emirates,1967,0
+United Arab Emirates,1968,0
+United Arab Emirates,1969,0
+United Arab Emirates,1970,0
+United Arab Emirates,1971,0
+United Arab Emirates,1972,0
+United Arab Emirates,1973,0
+United Arab Emirates,1974,0
+United Arab Emirates,1975,0
+United Arab Emirates,1976,0
+United Arab Emirates,1977,0
+United Arab Emirates,1978,0
+United Arab Emirates,1979,0
+United Arab Emirates,1980,0
+United Arab Emirates,1981,0
+United Arab Emirates,1982,0
+United Arab Emirates,1983,0
+United Arab Emirates,1984,0
+United Arab Emirates,1985,0
+United Arab Emirates,1986,0
+United Arab Emirates,1987,0
+United Arab Emirates,1988,0
+United Arab Emirates,1989,0
+United Arab Emirates,1990,0
+United Arab Emirates,1991,0
+United Arab Emirates,1992,0
+United Arab Emirates,1993,0
+United Arab Emirates,1994,1
+United Arab Emirates,1995,1
+United Arab Emirates,1996,1
+United Arab Emirates,1997,1
+United Arab Emirates,1998,1
+United Arab Emirates,1999,3
+United Arab Emirates,2000,6
+United Arab Emirates,2001,8
+United Arab Emirates,2002,12
+United Arab Emirates,2003,17
+United Arab Emirates,2004,18
+United Arab Emirates,2005,22
+United Arab Emirates,2006,39
+United Arab Emirates,2007,62
+United Arab Emirates,2008,92
+United Arab Emirates,2009,123
+United Arab Emirates,2010,146
+United Arab Emirates,2011,168
+United Arab Emirates,2012,183
+United Arab Emirates,2013,200
+United Arab Emirates,2014,207
+United Arab Emirates,2015,217
+United Arab Emirates,2016,222
+United Arab Emirates,2017,230
+United Arab Emirates,2018,241
+United Arab Emirates,2019,251
+United Arab Emirates,2020,259
+Australia,1909,0
+Australia,1910,0
+Australia,1911,0
+Australia,1912,0
+Australia,1913,0
+Australia,1914,0
+Australia,1915,0
+Australia,1916,0
+Australia,1917,0
+Australia,1918,0
+Australia,1919,0
+Australia,1920,0
+Australia,1921,0
+Australia,1922,0
+Australia,1923,0
+Australia,1924,0
+Australia,1925,0
+Australia,1926,0
+Australia,1927,0
+Australia,1928,0
+Australia,1929,0
+Australia,1930,0
+Australia,1931,0
+Australia,1932,0
+Australia,1933,0
+Australia,1934,0
+Australia,1935,0
+Australia,1936,0
+Australia,1937,0
+Australia,1938,0
+Australia,1939,0
+Australia,1940,0
+Australia,1941,0
+Australia,1942,0
+Australia,1943,0
+Australia,1944,0
+Australia,1945,0
+Australia,1946,0
+Australia,1947,0
+Australia,1948,0
+Australia,1949,0
+Australia,1950,0
+Australia,1951,0
+Australia,1952,0
+Australia,1953,0
+Australia,1954,0
+Australia,1955,0
+Australia,1956,0
+Australia,1957,0
+Australia,1958,0
+Australia,1959,0
+Australia,1960,0
+Australia,1961,0
+Australia,1962,0
+Australia,1963,0
+Australia,1964,0
+Australia,1965,0
+Australia,1966,0
+Australia,1967,1
+Australia,1968,1
+Australia,1969,1
+Australia,1970,1
+Australia,1971,1
+Australia,1972,2
+Australia,1973,2
+Australia,1974,2
+Australia,1975,3
+Australia,1976,3
+Australia,1977,5
+Australia,1978,7
+Australia,1979,8
+Australia,1980,9
+Australia,1981,9
+Australia,1982,10
+Australia,1983,11
+Australia,1984,11
+Australia,1985,11
+Australia,1986,12
+Australia,1987,12
+Australia,1988,16
+Australia,1989,18
+Australia,1990,19
+Australia,1991,26
+Australia,1992,31
+Australia,1993,33
+Australia,1994,33
+Australia,1995,33
+Australia,1996,34
+Australia,1997,36
+Australia,1998,36
+Australia,1999,37
+Australia,2000,40
+Australia,2001,40
+Australia,2002,40
+Australia,2003,41
+Australia,2004,44
+Australia,2005,54
+Australia,2006,60
+Australia,2007,63
+Australia,2008,63
+Australia,2009,64
+Australia,2010,64
+Australia,2011,67
+Australia,2012,72
+Australia,2013,73
+Australia,2014,79
+Australia,2015,83
+Australia,2016,92
+Australia,2017,99
+Australia,2018,102
+Australia,2019,111
+Australia,2020,120

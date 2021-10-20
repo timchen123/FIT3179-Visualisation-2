@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1050,
+  "height": 400,
+  "data": {
+  "url": "https://raw.githubusercontent.com/timchen123/project2/main/data/worldTop10Skyscraper.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+     "field": "Building Name", "type": "nominal", "title": null,
+     "sort": "ase",
+     "scale": {
+       "paddingOuter": 0.5,
+       "paddingInner": 0.6
+     },
+     "axis": {
+       "labelAlign":"left",
+       "labelBaseline":"middle",
+       "labelPadding": -10,
+       "labelOffset": -30
+     }
+   },
+   "tooltip": [
+       {"field": "Building Name", "type": "nominal", "title": "Name"},
+       {"field": "City", "type": "nominal", "title": "City"},
+       {"field": "Completion", "type": "quantitative", "title": "Year of Completion"},
+       {"field": "Cost", "type": "quantitative", "title": "Total Cost", "format": ","}
+     ]
+  },
+   "layer": [
+ {
+   "mark": {"type": "bar", "color": "#6a51a3", "cornerRadiusEnd": 30},
+   "encoding": {
+     "y": {
+       "field": "Height",
+       "type":"quantitative",
+       
+       "scale": {"domain": [0, 900]},
+       "title": "Height (m)",
+       "axis": {"titleColor": "#6a51a3"}
+     }
+   }
+ },
+ {
+   "mark": {"type": "bar", "color": "#dd3497", "xOffset": 40, "cornerRadiusEnd": 30},
+   "encoding": {
+     "y": {
+       "field": "Cost",
+       "type":"quantitative",
+       "title": "Total Cost ($)",
+       "axis": {"titleColor":"#dd3497"}
+     }
+   } 
+ }
+
+ 
+],
+"resolve": {"scale": {"y": "independent"}}
+}

@@ -1,0 +1,11 @@
+﻿#,Building Name,City,Height,Floors,Completion,Material,Use,Cost
+1,Burj Khalifa,Dubai (AE),828,163,2010,steel/concrete,office / residential / hotel,1500000000
+2,Shanghai Tower,Shanghai (CN),632,128,2015,composite,hotel / office,2400000000
+3,Makkah Royal Clock Tower,Mecca (SA),601,120,2012,steel/concrete,other / hotel,15000000000
+4,Ping An Finance Center,Shenzhen (CN),599.1,115,2017,composite,office,1500000000
+5,Lotte World Tower,Seoul (KR),554.5,123,2017,composite,hotel / residential / office / retail,2500000000
+6,One World Trade Center,New York City (US),541.3,94,2014,composite,office,3900000000
+7,Guangzhou CTF Finance Centre,Guangzhou (CN),530,111,2016,composite,hotel / residential / office,1500000000
+7,Tianjin CTF Finance Centre,Tianjin (CN),530,97,2019,composite,hotel / serviced apartments / office,0
+9,CITIC Tower,Beijing (CN),527.7,109,2018,composite,office,3800000000
+10,TAIPEI 101,Taipei (CN),508,101,2004,composite,office,1900000000

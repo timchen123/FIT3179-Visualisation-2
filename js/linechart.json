@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 300,
+  "data": {"url": "https://raw.githubusercontent.com/timchen123/project2/main/data/number4country.csv"},
+  "params": [
+    {
+      "name": "Country_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "China",
+          "United States of America",
+          "United Arab Emirates",
+          "Australia"
+        ],
+        "labels":[
+          "Show All",
+          "China",
+          "United States of America",
+          "United Arab Emirates",
+          "Australia"
+        ],
+        "name": "Country Selection: "
+    }
+    }
+  ],
+  "transform": [
+  {"filter": "Country_selection == null || datum.Country == Country_selection"}
+],
+"layer": [
+  {
+    "selection": {
+      "country_highlight": {
+        "type": "multi",
+        "fields": ["Country"],
+        "bind": "legend"
+      }
+    },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {"field": "Number", "type": "quantitative", "title": "Number of Buildings", "scale": {"domain": [0,2500]}},
+    "color": {
+      "field": "Country", 
+      "type": "nominal", 
+      "scale": {
+        "domain": [
+          "China",
+          "United States of America",
+          "United Arab Emirates",
+          "Australia"
+        ],
+        "range": [
+          "#e41a1c",
+          "#984ea3",
+          "#ff7f00",
+          "#377eb8"
+        ]
+        }},
+        "opacity": {
+        "condition": {"selection": "country_highlight", "value": 0.6},
+        "value": 0.2
+      },
+      "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Year", "type": "temporal", "title": "Year"},
+          {"field": "Number", "type": "quantitative", "title": "Total Number of Buildings"}
+      ]
+  }
+  }
+]
+}

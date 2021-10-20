@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 300,
+  "data": {
+  "url": "https://raw.githubusercontent.com/timchen123/project2/main/data/world4country.csv"
+  },
+  "params": [
+    {
+      "name": "Country_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "China",
+          "United States of America",
+          "United Arab Emirates",
+          "Australia"
+        ],
+        "labels":[
+          "Show All",
+          "China",
+          "United States of America",
+          "United Arab Emirates",
+          "Australia"
+        ],
+        "name": "Country Selection: "
+    }
+    }
+  ],
+  "transform": [
+  {"filter": "Country_selection == null || datum.Country == Country_selection"}
+],
+"encoding": {
+  "x": {
+    "field": "Completion",
+    "type": "temporal",
+    "title": "Year of Completion"
+  },
+  "y": {
+    "field": "Height",
+    "type": "quantitative",
+    "title": "Height (m)",
+    "scale": {"domain": [150, 900]}
+  }
+},
+"layer": [
+  {
+    "selection": {
+      "country_highlight": {
+        "type": "multi",
+        "fields": ["Country"],
+        "bind": "legend"
+      }
+    },
+    "mark": "circle",
+    "encoding": {
+      "color": {
+        "field": "Country",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "China",
+            "United States of America",
+            "United Arab Emirates",
+            "Australia"
+          ],
+          "range": [
+            "#e41a1c",
+            "#984ea3",
+            "#ff7f00",
+            "#377eb8"
+          ]
+        }
+      },
+       "opacity": {
+        "condition": {"selection": "country_highlight", "value": 0.6},
+        "value": 0.2
+      },
+      "tooltip": [
+          {"field": "Building Name", "type": "nominal"},
+          {"field": "Country", "type": "nominal"},
+          {"field": "City", "type": "nominal"},
+          {"field": "Height", "type": "quantitative", "format": ","},
+          {"field": "Completion", "type": "temporal", "title": "Year of Completion"}
+      ]
+  }
+  }
+]
+}
