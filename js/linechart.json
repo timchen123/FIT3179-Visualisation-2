@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 400,
   "height": 300,
-  "data": {"url": "https://raw.githubusercontent.com/timchen123/project2/main/data/number4country.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/timchen123/fit3179_assignment2/main/data/number4country.csv"},
   "params": [
     {
       "name": "Country_selection",

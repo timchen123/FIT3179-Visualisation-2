@@ -3,7 +3,7 @@
   "width": 1050,
   "height": 400,
   "data": {
-  "url": "https://raw.githubusercontent.com/timchen123/project2/main/data/worldTop10Skyscraper.csv"
+  "url": "https://raw.githubusercontent.com/timchen123/fit3179_assignment2/main/data/worldTop10Skyscraper.csv"
   },
   "mark": "bar",
   "encoding": {
